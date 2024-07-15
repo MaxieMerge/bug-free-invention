@@ -1,6 +1,10 @@
 language: java
 jdk: openjdk15
 
+addons: # get google-chrome-stable
+  chrome: stable
+  sauce_connect: true
+
 cache:
   directories: $HOME/.m2
 
